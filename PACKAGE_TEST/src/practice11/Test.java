@@ -1,5 +1,8 @@
 package practice11;
 import java.util.Arrays;
+
+import personal_practice.Sorts;
+
 import java.util.ArrayList;
 
 public class Test implements Sorts {
@@ -11,7 +14,6 @@ public class Test implements Sorts {
 		
 		System.out.println(Arrays.toString(Sorts.insertion_sort(array)));
 		System.out.println(Sorts.insertion_sort(array2));
-		System.out.println(Arrays.toString(Sorts.merge_sort(array)));
 	}
 
 }

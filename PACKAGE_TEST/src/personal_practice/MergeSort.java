@@ -9,9 +9,9 @@ public class MergeSort {
 		int [] src = new int[]{1, 9, 8, 5, 4, 2, 3, 7, 6};
 		
 //		mergeSort(array, 0, array.length-1);
-//		System.out.println(Arrays.toString(sort(array)));
-		mergeSort(array, 0, array.length-1);
-		System.out.println(Arrays.toString(array));
+		System.out.println(Arrays.toString(sort(array)));
+//		mergeSort(array, 0, array.length-1);
+//		System.out.println(Arrays.toString(array));
 	}
 
 	public static void mergeSort(int[] arr, int start, int end) {

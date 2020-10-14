@@ -35,6 +35,5 @@ public class Run {
 			your_stat.setSpeed(3);
 			Character.set_stat(your_stat);
 		}
-		System.out.println(Character.getStat().get_all());
 	}
 }
