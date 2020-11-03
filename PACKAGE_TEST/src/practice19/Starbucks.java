@@ -12,6 +12,8 @@ public enum Starbucks {
 	Starbucks(String str, int num){
 		this.name = str;
 		this.price = num;
+		
+		
 	}
 	
 	public int get_price() {
